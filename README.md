@@ -1,3 +1,6 @@
+
+Completed tutorial along with a few other explorations (in the Swift3 branch).  Getting the touches to pass through from the SpriteKit overlay into the SceneKit required making mods as described in the comments in the tutorial page.
+
 ### Tuts+ Tutorial: Utilising SpriteKit content within SceneKit
 
 #### Instructor: Davis Allie
