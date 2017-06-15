@@ -17,6 +17,11 @@
 		602C903C1B0DD610001EE880 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602C903B1B0DD610001EE880 /* SpriteKit.framework */; };
 		602C903E1B0DD615001EE880 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602C903D1B0DD615001EE880 /* SceneKit.framework */; };
 		602C90401B0DD838001EE880 /* OverlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C903F1B0DD838001EE880 /* OverlayScene.swift */; };
+		AB1C598F1EF214E100BCABA1 /* train_wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB1C598E1EF214E100BCABA1 /* train_wood.jpg */; };
+		AB1C59911EF2151600BCABA1 /* cubeTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = AB1C59901EF2151600BCABA1 /* cubeTexture.png */; };
+		AB1C59951EF2173C00BCABA1 /* WoodCubeA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB1C59921EF2173C00BCABA1 /* WoodCubeA.jpg */; };
+		AB1C59961EF2173C00BCABA1 /* WoodCubeB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB1C59931EF2173C00BCABA1 /* WoodCubeB.jpg */; };
+		AB1C59971EF2173C00BCABA1 /* WoodCubeC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB1C59941EF2173C00BCABA1 /* WoodCubeC.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		602C903B1B0DD610001EE880 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		602C903D1B0DD615001EE880 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		602C903F1B0DD838001EE880 /* OverlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayScene.swift; sourceTree = "<group>"; };
+		AB1C598E1EF214E100BCABA1 /* train_wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = train_wood.jpg; sourceTree = "<group>"; };
+		AB1C59901EF2151600BCABA1 /* cubeTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubeTexture.png; sourceTree = "<group>"; };
+		AB1C59921EF2173C00BCABA1 /* WoodCubeA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WoodCubeA.jpg; sourceTree = "<group>"; };
+		AB1C59931EF2173C00BCABA1 /* WoodCubeB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WoodCubeB.jpg; sourceTree = "<group>"; };
+		AB1C59941EF2173C00BCABA1 /* WoodCubeC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WoodCubeC.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,11 @@
 		602C900B1B0DD5B5001EE880 = {
 			isa = PBXGroup;
 			children = (
+				AB1C59901EF2151600BCABA1 /* cubeTexture.png */,
+				AB1C59921EF2173C00BCABA1 /* WoodCubeA.jpg */,
+				AB1C59931EF2173C00BCABA1 /* WoodCubeB.jpg */,
+				AB1C59941EF2173C00BCABA1 /* WoodCubeC.jpg */,
+				AB1C598E1EF214E100BCABA1 /* train_wood.jpg */,
 				602C903D1B0DD615001EE880 /* SceneKit.framework */,
 				602C903B1B0DD610001EE880 /* SpriteKit.framework */,
 				602C90161B0DD5B5001EE880 /* CombinedSpriteKitSceneKit */,
@@ -210,8 +225,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				602C901F1B0DD5B5001EE880 /* Main.storyboard in Resources */,
+				AB1C59951EF2173C00BCABA1 /* WoodCubeA.jpg in Resources */,
 				602C90241B0DD5B5001EE880 /* LaunchScreen.xib in Resources */,
+				AB1C59961EF2173C00BCABA1 /* WoodCubeB.jpg in Resources */,
 				602C90211B0DD5B5001EE880 /* Images.xcassets in Resources */,
+				AB1C59911EF2151600BCABA1 /* cubeTexture.png in Resources */,
+				AB1C598F1EF214E100BCABA1 /* train_wood.jpg in Resources */,
+				AB1C59971EF2173C00BCABA1 /* WoodCubeC.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
